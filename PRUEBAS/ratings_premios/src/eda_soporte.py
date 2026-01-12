@@ -4,15 +4,6 @@
 import pandas as pd
 import numpy as np
 
-# Imputación de nulos
-from sklearn.impute import SimpleImputer
-from sklearn.experimental import enable_iterative_imputer
-from sklearn.impute import IterativeImputer
-from sklearn.impute import KNNImputer
-
-# Librerías de visualización
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 # Visualizar todas las columnas de los DataFrames
 pd.set_option('display.max_columns', None)

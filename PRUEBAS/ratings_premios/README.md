@@ -78,7 +78,7 @@ Contiene información sobre episodios, temporadas, nominaciones y premios ganado
 | episode        | Número del episodio relacionado                    |
 
 
----
+
 
 ### simpsons_ratings.csv
 **Descripción:**  
@@ -103,20 +103,20 @@ Contiene información sobre episodios, temporadas, audiencia y ratings IMDb.
 
 ## 🛠️ Requisitos y tecnologías
 
-### Lenguaje
+**Lenguaje**
 - Python
 
-### Librerías
+**Librerías**
 - pandas
 - numpy
 - matplotlib
 - seaborn
 
-### Herramientas
+**Herramientas**
 - Jupyter Notebook
 - Tableau Desktop / Tableau Public
 
-### Formato de datasets
+**Formato de datasets**
 - CSV
 
 
@@ -146,8 +146,6 @@ Contiene información sobre episodios, temporadas, audiencia y ratings IMDb.
 Este archivo contiene funciones y configuraciones útiles para la exploración y limpieza de los datasets:
 
 ### Contenido principal
-- Librerías de visualización (`matplotlib`, `seaborn`)
-- Funciones de imputación de nulos (`SimpleImputer`, `IterativeImputer`, `KNNImputer`)
 - Configuración para mostrar todas las columnas de un DataFrame
 - Función `open_csv(ruta)`:
   - Carga un CSV
@@ -157,16 +155,20 @@ Este archivo contiene funciones y configuraciones útiles para la exploración y
   - Exploración rápida de un dataset
   - Muestra dimensiones, tipos de datos, duplicados, porcentaje de nulos y valores únicos
 
-### Ejemplo de uso
+**Ejemplo de uso**
 ```python
 from src import eda_soporte as eda_sp
 ```
 
-# Cargar dataset
-df_ratings = pd.read_csv("./datasets/simpsons_ratings_episodes.csv", index_col=0)
+**Cargar dataset**
+```python
+df_award = eda_sp.open_csv("./datasets/award.csv")
+```
 
-# Exploración rápida
-eda_sp.eda_1(df_ratings)
+**Exploración rápida**
+```python
+eda_sp.eda_1(df_award)
+```
 
 
 ---
@@ -188,47 +190,58 @@ from src import eda_soporte as eda_sp
 ```
 
 ### Cargar datasets
+```python
 df_award = eda_sp.open_csv("./datasets/award.csv")
-df_character_award = eda_sp.open_csv("./datasets/character_award.csv")
-df_credit = eda_sp.open_csv("./datasets/credit.csv")
-df_episode = eda_sp.open_csv("./datasets/episode.csv")
-df_ratings = pd.read_csv("./datasets/simpsons_ratings_episodes.csv", index_col=0)
+```
+
 
 ### Visualizar primeras filas
+```python
 df_award.head()
-df_episode.head()
-df_ratings.head()
+```
+
 
 ### Primera exploración EDA
+```python
 eda_sp.eda_1(df_award)
-eda_sp.eda_1(df_episode)
-eda_sp.eda_1(df_ratings)
+```
 
 ### Limpiar duplicados 
-df_credit = df_credit.drop_duplicates()
+```python
 df_award = df_award.drop_duplicates()
+```
 
 ### Eliminar 4 columnas
+```python
 df_episode = df_episode.drop(columns=['season', 'episode', 'number_in_series', 'episode_image'])
+```
 
 ### Ordenar columnas
+```python
 cols = ['award_id', 'organization', 'year', 'award_category', 'award', 'result', 
         'person', 'role', 'character',
         'episode_id', 'season', 'episode']
 
 df_award = df_award[cols]
+```
 
 ### Renombrar columnas
+```python
 df_ratings = df_ratings.rename(columns={'original_air_date': 'air_date', 'number_in_season': 'episode', 'us_viewers_in_millions': 'us__million_viewers'})
+```
 
 ### Unión de datasets
+```python
 df_award = df_award.merge(df_credit[['episode_id', 'person', 'role']],
             on=['episode_id', 'person'],
             how='left')
+```
 
 ### Exportación de datasets limpios
+```python
 df_award.to_csv("./final_data/simpsons_awards.csv", index=False)
 df_ratings.to_csv("./final_data/simpsons_ratings.csv", index=False)
+```
 
 ---
 
@@ -236,7 +249,6 @@ df_ratings.to_csv("./final_data/simpsons_ratings.csv", index=False)
 
 ### Customización de colores 
 ```python
-#Custom Colors
 class clr:
     S = '\033[1m' + '\033[96m'
     E = '\033[0m'
@@ -248,6 +260,8 @@ my_colors = ["#2f64d6", "#f8db27", "#9c5b01", "#f0f0f0", "#ff81c1"]
 ### Evolución de los premios por año
 ![Premios por año](images/premios_ano.png)
 
+
+---
 
 
 ## 📌 Notas finales
