@@ -1,0 +1,51 @@
+ID,Personaje,Pais,Region_Estado,Tipo_de_Origen
+1,Homer Simpson,USA,Springfield,Nativo
+2,Marge Simpson,USA,Springfield,Nativo
+3,Bart Simpson,USA,Springfield,Nativo
+4,Lisa Simpson,USA,Springfield,Nativo
+5,Maggie Simpson,USA,Springfield,Nativo
+6,Abraham Simpson,USA,Springfield,Nativo
+7,Ned Flanders,USA,Springfield,Nativo
+8,Charles Montgomery Burns,USA,Springfield,Nativo
+9,Waylon Smithers,USA,Springfield,Nativo
+10,Apu Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+11,Manjula Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+12,Groundskeeper Willie,Escocia,Kirkwall,Inmigrante
+13,Dr. Nick Riviera,Argentina,Desconocido,Inmigrante
+14,Uter Z”rker,Alemania,Baviera,Estudiante de Intercambio
+15,Krusty el Payaso,USA,Springfield,Nativo
+16,Bumblebee Man,Mexico,Desconocido,Inmigrante
+17,Rainier Wolfcastle,Austria,Desconocido,Inmigrante
+18,Luigi Risotto,Italia,Desconocido,Inmigrante
+19,Fat Tony,Italia,Sicilia,Inmigrante
+20,Akira,Japan,Desconocido,Residente
+21,Kumiko Albertson,Japan,Desconocido,Inmigrante
+22,Cookie Kwan,China,Desconocido,Inmigrante
+23,Kent Brockman,USA,Springfield,Nativo
+24,Mayor Quimby,USA,Springfield,Nativo
+25,Seymour Skinner,USA,Springfield,Nativo
+26,Edna Krabappel,USA,Springfield,Nativo
+27,Moe Szyslak,USA,Springfield,Nativo
+28,Barney Gumble,USA,Springfield,Nativo
+29,Milhouse Van Houten,USA,Springfield,Nativo
+30,Kirk Van Houten,USA,Springfield,Nativo
+31,Luann Van Houten,Italia,Toscana,Inmigrante
+32,Nelson Muntz,USA,Springfield,Nativo
+33,Ralph Wiggum,USA,Springfield,Nativo
+34,Clancy Wiggum,USA,Springfield,Nativo
+35,Dr. Julius Hibbert,USA,Springfield,Nativo
+36,Bleeding Gums Murphy,USA,Springfield,Nativo
+37,Comic Book Guy,USA,Springfield,Nativo
+38,Otto Mann,USA,Springfield,Nativo
+39,Sea Captain Horatio,USA,Springfield,Nativo
+40,Duffman,USA,Springfield,Nativo
+41,Cletus Spuckler,USA,Springfield,Nativo
+42,Brandine Spuckler,USA,Springfield,Nativo
+43,Sideshow Bob,USA,Springfield,Nativo
+44,Patty Bouvier,USA,Springfield,Nativo
+45,Selma Bouvier,USA,Springfield,Nativo
+46,Mona Simpson,USA,Springfield,Nativo
+47,Sanjay Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+48,Colin,Ireland,Desconocido,Inmigrante
+49,Adil Hoxha,Albania,Desconocido,Estudiante de Intercambio
+50,Tibor,Hungary,Desconocido,Inmigrante
