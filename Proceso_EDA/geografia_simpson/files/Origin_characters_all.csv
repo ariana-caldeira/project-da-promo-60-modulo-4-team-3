@@ -1,0 +1,71 @@
+ID,Personaje,Pais,Region_Origen,Tipo_de_Origen
+1,Homer Simpson,USA,Springfield,Nativo
+2,Marge Simpson,USA,Springfield,Nativo
+3,Bart Simpson,USA,Springfield,Nativo
+4,Lisa Simpson,USA,Springfield,Nativo
+5,Maggie Simpson,USA,Springfield,Nativo
+6,Abraham Simpson,USA,Springfield,Nativo
+7,Mona Simpson,USA,Springfield,Nativo
+8,Herb Powell,USA,Detroit,Nativo
+9,Ned Flanders,USA,Springfield,Nativo
+10,Maude Flanders,USA,Springfield,Nativo
+11,Rod Flanders,USA,Springfield,Nativo
+12,Todd Flanders,USA,Springfield,Nativo
+13,Charles Montgomery Burns,USA,Springfield,Nativo
+14,Waylon Smithers,USA,Springfield,Nativo
+15,Apu Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+16,Manjula Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+17,Sanjay Nahasapeemapetilon,India,Bengala Occidental,Inmigrante
+18,Groundskeeper Willie,Escocia,Kirkwall,Inmigrante
+19,Dr Nick Riviera,Argentina,Desconocido,Inmigrante
+20,Uter Zorker,Alemania,Baviera,Intercambio
+21,Krusty el Payaso,USA,Springfield,Nativo
+22,Rabbi Hyman Krustofsky,USA,Springfield,Nativo
+23,Bumblebee Man,Mexico,Desconocido,Inmigrante
+24,Rainier Wolfcastle,Austria,Desconocido,Inmigrante
+25,Luigi Risotto,Italia,Desconocido,Inmigrante
+26,Fat Tony,Italia,Sicilia,Inmigrante
+27,Akira,Japon,Desconocido,Residente
+28,Kumiko Albertson,Japon,Desconocido,Inmigrante
+29,Cookie Kwan,China,Desconocido,Inmigrante
+30,Seymour Skinner,USA,Springfield,Nativo
+31,Agnes Skinner,USA,Springfield,Nativo
+32,Edna Krabappel,USA,Springfield,Nativo
+33,Moe Szyslak,USA,Springfield,Nativo
+34,Barney Gumble,USA,Springfield,Nativo
+35,Milhouse Van Houten,USA,Springfield,Nativo
+36,Kirk Van Houten,USA,Springfield,Nativo
+37,Luann Van Houten,Italia,Toscana,Inmigrante
+38,Nelson Muntz,USA,Springfield,Nativo
+39,Ralph Wiggum,USA,Springfield,Nativo
+40,Clancy Wiggum,USA,Springfield,Nativo
+41,Dr Julius Hibbert,USA,Springfield,Nativo
+42,Bernice Hibbert,USA,Springfield,Nativo
+43,Bleeding Gums Murphy,USA,Springfield,Nativo
+44,Comic Book Guy,USA,Springfield,Nativo
+45,Otto Mann,USA,Springfield,Nativo
+46,Horatio McCallister,USA,Springfield,Nativo
+47,Duffman,USA,Springfield,Nativo
+48,Cletus Spuckler,USA,Springfield,Nativo
+49,Brandine Spuckler,USA,Springfield,Nativo
+50,Sideshow Bob,USA,Springfield,Nativo
+51,Patty Bouvier,USA,Springfield,Nativo
+52,Selma Bouvier,USA,Springfield,Nativo
+53,Ling Bouvier,China,Desconocido,Adopcion
+54,Colin,Irlanda,Desconocido,Inmigrante
+55,Adil Hoxha,Albania,Desconocido,Intercambio
+56,Tibor,Hungria,Desconocido,Inmigrante
+57,Squeaky Voiced Teen,USA,Springfield,Nativo
+58,Gil Gunderson,USA,Springfield,Nativo
+59,Lionel Hutz,USA,Springfield,Nativo
+60,Troy McClure,USA,Springfield,Nativo
+61,Kang,Rigel VII,Espacio,Extraterrestre
+62,Kodos,Rigel VII,Espacio,Extraterrestre
+63,Artie Ziff,USA,Springfield,Nativo
+64,Rainier Wolfcastle,Austria,Desconocido,Inmigrante
+65,Cazar de los Balcanes,Serbia,Desconocido,Inmigrante
+66,Lester,USA,Springfield,Nativo
+67,Eliza,USA,Springfield,Nativo
+68,Drederick Tatum,USA,Springfield,Nativo
+69,Kent Brockman,USA,Springfield,Nativo
+70,Mayor Quimby,USA,Springfield,Nativo
