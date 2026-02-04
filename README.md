@@ -1,116 +1,115 @@
 # 📺 The Simpsons — Análisis de una serie de éxito
 
-<img width="1837" height="725" alt="image" src="https://github.com/user-attachments/assets/9331f0b5-f2fa-4436-8434-0500aff21187" />
+### Proyecto Colaborativo de Data Analytics | Adalab
 
+<img width="1837" height="725" alt="The Simpsons Data Project Header" src="[https://github.com/user-attachments/assets/9331f0b5-f2fa-4436-8434-0500aff21187](https://github.com/user-attachments/assets/9331f0b5-f2fa-4436-8434-0500aff21187)" />
 
 **🧠 Descripción del proyecto**
+*The Simpsons* es un proyecto integral de análisis y visualización de datos centrado en una de las series más icónicas y longevas de la historia. El objetivo principal es explorar y comprender este fenómeno cultural a través de un flujo completo de datos: **Adquisición → EDA → Visualización**.
 
-The Simpsons es un proyecto de análisis y visualización de datos centrado en una de las series más icónicas y longevas de la historia de la televisión.
-El objetivo principal es explorar, comprender y visualizar distintos aspectos clave de la serie a través del análisis de datos reales.
+Para ello, hemos transformado datasets públicos de Kaggle e información generada mediante IA en un **entorno analítico interactivo en Tableau**, permitiendo una exploración dinámica de más de 35 años de historia televisiva.
 
-Para ello, se han recopilado datasets públicos de Kaggle, se ha realizado un Análisis Exploratorio de Datos (EDA) utilizando Python y, como paso final, se han desarrollado dashboards interactivos en Tableau para comunicar los resultados de forma visual y accesible.
+---
 
-**🎯 Objetivos del análisis**
+## 👥 Equipo y Colaboración
 
-Explorar datos relevantes sobre Los Simpsons desde diferentes perspectivas.
+Este proyecto ha sido desarrollado de forma conjunta por un equipo de 5 analistas. **Nota:** Aunque el repositorio es compartido, cada participante tiene el proyecto vinculado y personalizado en su propio perfil profesional:
 
-Identificar patrones y tendencias dentro de la serie.
+* **ARIANA CALDEIRA** | https://github.com/ariana-caldeira | 
+* **ELENA PAVÓN** | https://github.com/elenapavonfernandez-ui | 
+* **MARÍA GÓMEZ** | https://github.com/mariagmzm | 
+* **MICAELA LAFRATTA** | https://github.com/micaelalafratta |
+* **NIEVES PÉREZ** | https://github.com/NievesPerez-Data | 
 
-Analizar información demográfica, geográfica y cultural.
+---
 
-Visualizar los resultados de forma clara mediante dashboards.
+## 🎯 Objetivos del análisis
 
-Consolidar un flujo completo de análisis: datos → EDA → visualización.
+* **Explorar** datos relevantes sobre Los Simpsons desde múltiples perspectivas.
+* **Identificar** patrones y tendencias críticas dentro de la serie.
+* **Analizar** información demográfica, geográfica y cultural.
+* **Visualizar** resultados mediante dashboards de alto impacto en Tableau.
+* **Consolidar** un pipeline de datos robusto y escalable.
 
-**🛠️ Tecnologías y herramientas utilizadas**
-Lenguaje
-- Python
+---
 
-Librerías de Python
-- pandas
-- numpy
-- seaborn
-- matplotlib
+## 📊 Estructura del Análisis (Orden de Presentación)
 
-Visualización
-- Tableau
+El flujo de la presentación sigue este recorrido estratégico:
 
-Fuente de datos
-- Kaggle (datasets públicos relacionados con The Simpsons)
-- Creación propia (recopilación e IA)
+1. **📈 Audiencia, Ratings y Premios:** El éxito comercial y la crítica especializada.
+2. **🎤 Invitados Estelares:** El impacto mediático de celebridades y sectores culturales.
+3. **📜 Análisis de Guiones y Personajes:** ADN narrativo y evolución de los diálogos.
+4. **🌍 El Atlas de Springfield:** Geolocalización y expansión global de la serie.
+5. **🔮 El Oráculo de Springfield (Predicciones):** Cuantificación de la cronovinculación ficción-realidad.
+6. **🚀 Next Steps:** Propuestas de escalabilidad y futuras iteraciones.
 
-**📂 Estructura del repositorio**
+---
 
-El repositorio está organizado en dos grandes bloques principales:
-📁 Proceso_EDA
-📁 Tableau
+## 🏗️ Estructura del Repositorio
 
-**🔍 Proceso_EDA**
+El repositorio se organiza en dos grandes bloques funcionales:
 
-Contiene todo el trabajo de análisis exploratorio de datos, dividido en carpetas temáticas.
-Cada carpeta aborda un aspecto concreto del universo de Los Simpsons y cuenta con su propio README, donde se explica en detalle el alcance y la complejidad de ese análisis específico.
+### 📁 Proceso_EDA
 
-**🧩 Carpetas temáticas**
+Contiene el análisis exploratorio dividido en carpetas temáticas. Cada una cuenta con su propio README detallado:
 
-demografia_simpson/
-Análisis de variables demográficas de los personajes.
+* `demografia_simpson/`: Variables demográficas de los personajes.
+* `geografia_simpson/`: Ubicaciones, lugares y referencias geográficas.
+* `invitados_simpsons/`: Estrellas invitadas y apariciones especiales.
+* `predicciones_simpsons/`: Exploración de "profecías" atribuidas a la serie.
+* `premios_simpsons/`: Análisis de reconocimientos y premios obtenidos.
 
-geografia_simpson/
-Estudio de ubicaciones, lugares y referencias geográficas dentro de la serie.
+> **🗂️ Organización interna de carpetas:**
+> * `files_rawdata/`: Datos originales sin procesar (Kaggle/IA).
+> * `files_cleandata/`: Datos limpios y normalizados.
+> * `notebooks_eda_cleaning/`: Proceso técnico en Jupyter Notebooks.
+> * `src/`: Funciones auxiliares y scripts (ej. `eda_support.py`).
+> * `images/`: Recursos visuales generados durante el EDA.
+> 
+> 
 
-invitados_simpsons/
-Análisis de personajes invitados y apariciones especiales.
+### 📁 Tableau
 
-predicciones_simpsons/
-Exploración de predicciones atribuidas a la serie a lo largo de los años.
+Fase final dedicada a la visualización de resultados:
 
-premios_simpsons/
-Datos y análisis relacionados con premios y reconocimientos obtenidos.
+* `images/`: Capturas y recursos visuales de los dashboards.
+* **`The Simpsons análisis éxito.twbx`**: Archivo de Tableau optimizado.
+* **Tip Técnico:** Se ha diseñado un **Esquema de Estrella (Star Schema)** utilizando los archivos limpios de Python para garantizar un rendimiento fluido en Tableau.
 
-**🗂️ Estructura interna de las carpetas temáticas**
+---
 
-Cada carpeta temática puede contener las siguientes subcarpetas (no todas están presentes en todos los casos):
+## 🎨 El Ecosistema Tableau
 
-files_rawdata/
-Datos originales sin procesar, tal como fueron obtenidos.
+🔗 **Acceso al Dashboard:** https://public.tableau.com/shared/JDK88NZ53?:display_count=n&:origin=viz_share_link
 
-files_cleandata/
-Datos limpios y transformados, listos para el análisis.
+*(Cada integrante dispone del acceso directo a sus perfiles individuales).*
 
-notebooks_eda_cleaning/
-Notebooks utilizados para la limpieza de datos y el análisis exploratorio.
+La implementación en Tableau permite una navegación dinámica mediante filtros cruzados, mapas interactivos y storytelling de datos, permitiendo que los hallazgos del EDA sean accesibles para cualquier usuario.
 
-src/
-Scripts y funciones auxiliares reutilizables empleados durante el EDA.
+---
 
-images/
-Gráficos, visualizaciones y recursos visuales generados en el análisis.
+## 🛠️ Tecnologías y Herramientas
 
-**📊 Tableau**
+* **Lenguaje:** Python (Pandas, NumPy).
+* **Librerías Visuales:** Seaborn, Matplotlib.
+* **BI & Visualización:** **Tableau Desktop / Tableau Public**.
+* **Fuentes:** Kaggle & Recopilación asistida por IA.
 
-Esta carpeta contiene la fase final del proyecto, dedicada a la visualización de resultados mediante Tableau.
+---
 
-Contenido
+## 🚀 Cómo explorar el proyecto
 
-images/
-Capturas y recursos visuales de los dashboards creados.
+1. Comienza revisando la carpeta **Proceso_EDA** para entender la ingeniería de datos.
+2. Accede a las **carpetas temáticas** para profundizar en áreas específicas.
+3. Consulta los **README internos** para conocer la metodología técnica.
+4. Finaliza explorando el **dashboard en Tableau**, donde se sintetizan los hallazgos principales.
 
-The Simpsons análisis éxito.twbx
-Archivo de Tableau con el dashboard final del proyecto.
-
-**🚀 Cómo explorar el proyecto**
-
-Comienza revisando la carpeta Proceso_EDA para entender cómo se ha desarrollado el análisis.
-
-Accede a las carpetas temáticas según el área de interés.
-
-Consulta los README internos para profundizar en cada análisis.
-
-Finaliza explorando el dashboard en Tableau, donde se sintetizan los principales hallazgos del proyecto.
+---
 
 **✨ Conclusión**
+Este proyecto demuestra un flujo de trabajo profesional en Data Analytics, desde la adquisición de información bruta hasta la comunicación de insights estratégicos. *The Simpsons* sirve como el caso de estudio perfecto para demostrar cómo los datos ayudan a entender un fenómeno cultural global.
 
-Este proyecto muestra un flujo completo de trabajo en análisis de datos, desde la adquisición y limpieza de información hasta su interpretación y visualización final.
-The Simpsons sirve como caso de estudio para demostrar cómo los datos pueden ayudarnos a entender el éxito y la evolución de un fenómeno cultural global.
 
-**🔗 Link a tableau public:** https://public.tableau.com/shared/JDK88NZ53?:display_count=n&:origin=viz_share_link
+
+
